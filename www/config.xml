@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.g1ts.cpa" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>cpa dev</name>
+    <name>digustator dev</name>
     <description>
-        cpa dev app
+        digustator dev app
     </description>
     <author email="info@g1ts.net" href="http://g1ts.net">
       g1ts
