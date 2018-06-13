@@ -3,9 +3,9 @@ var app = {
     initialize: function() {
         this.bindEvents();
         try{
-          window.plugins.insomnia.keepAwake();
+          window.plugins.insomnia.keepAwake(function(){alert('ok')});
         }catch(e){
-          console.log('insomnia error')
+          alert('insomnia error', e)
         }
     },
     bindEvents: function() {
