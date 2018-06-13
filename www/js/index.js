@@ -12,7 +12,8 @@ var app = {
         window.plugins.insomnia.keepAwake();
       }catch(e){}
       try{
-        AndroidFullScreen.immersiveMode();
+        //AndroidFullScreen.immersiveMode();
+        AndroidFullScreen.setSystemUiVisibility(AndroidFullScreen.SYSTEM_UI_FLAG_FULLSCREEN | AndroidFullScreen.SYSTEM_UI_FLAG_LOW_PROFILE);
       }catch(e){}
     }
 };
