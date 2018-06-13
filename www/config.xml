@@ -25,6 +25,8 @@
     <plugin name="cordova-plugin-fullscreen" source="npm" spec="~1.2.0" />
     <preference name="Fullscreen" value="true" />
     
+    <plugin name="cordova-plugin-insomnia" source="npm" spec="~4.3.0" />
+    
     <platform name="android">
         <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
         <icon density="mdpi" src="www/res/icon/android/drawable-mdpi-icon.png" />
