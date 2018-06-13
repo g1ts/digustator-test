@@ -13,7 +13,7 @@ var app = {
       }catch(e){}
       try{
         //AndroidFullScreen.immersiveMode();
-        AndroidFullScreen.setSystemUiVisibility(AndroidFullScreen.SYSTEM_UI_FLAG_FULLSCREEN | AndroidFullScreen.SYSTEM_UI_FLAG_LOW_PROFILE);
+        AndroidFullScreen.setSystemUiVisibility(8);
       }catch(e){}
     }
 };
