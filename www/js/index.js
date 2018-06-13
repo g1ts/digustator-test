@@ -12,7 +12,7 @@ var app = {
         window.plugins.insomnia.keepAwake();
       }catch(e){}
       try{
-        AndroidFullScreen.leanMode();
+        AndroidFullScreen.immersiveMode();
       }catch(e){}
     }
 };
