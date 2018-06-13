@@ -9,9 +9,7 @@ var app = {
     },
     onDeviceReady: function(){
       try{
-        window.plugins.insomnia.keepAwake(function(){alert('ok')});
-      }catch(e){
-        alert('insomnia error', e)
-      }
+        window.plugins.insomnia.keepAwake();
+      }catch(e){}
     }
 };
