@@ -12,9 +12,7 @@ var app = {
         window.plugins.insomnia.keepAwake();
       }catch(e){}
       try{
-        AndroidFullScreen.leanMode(function(){alert('ok')});
-      }catch(e){
-        alert('AndroidFullScreen error')
-      }
+        AndroidFullScreen.leanMode();
+      }catch(e){}
     }
 };
